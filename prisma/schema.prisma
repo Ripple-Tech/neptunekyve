@@ -100,7 +100,7 @@ model Product {
   name        String
   description String
   vendor      String?
-  price       Number
+  price       Int
   brand       String?
   category    String?
   inStock     Boolean     @default(true)
